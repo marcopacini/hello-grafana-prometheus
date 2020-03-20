@@ -2,7 +2,7 @@
 
 Just a playground for getting started with Prometheus and Grafana.
 
-### Components:
+### Components
 - App (node.js)
 - Prometheus Server
 - Node Exporter
@@ -48,7 +48,7 @@ app.get('/metrics', (_, res) => {
 })
 ```
 
-#### Extra
+### Extra
 
 - After connecting your data source, you can import the **node-exporter** metrics
 dashboard just copying its dashboard ID (405) in Grafana: *Create - Import*.
